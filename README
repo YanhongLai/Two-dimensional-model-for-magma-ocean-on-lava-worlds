@@ -1,0 +1,10 @@
+Thank you for your attention and reading!
+
+The difference between H2km and H5km is in the vertical range of the simulate domain
+and the vertical resolution.
+
+For H2km_dz_equal, H is 2 km by default, vertical resolution is 20 m equally, and nz = 101.
+This setup has higher vertical resolution even in the bottom layer, which runs slowly.
+
+For H5km_delR_unequal, H is 5 km by default, vertical resolution varies from 40~400 m, nz is smaller (details see main_delR.m).
+This setup makes the model run faster with a deeper depth and coarse resolution in the deep layer.
