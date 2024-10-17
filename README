@@ -12,3 +12,11 @@ This setup has higher vertical resolution even in the bottom layer, which runs s
 
 In main_delR.m, H is 5 km by default, vertical resolution varies from 40 at the surface and 400 m at the bottom layer, nz is 49.
 This setup makes the model run faster with a deeper depth and coarse resolution in the deep layer.
+
+
+%%%%%%% added in 2024/10/17
+a new version named version2 20241017.zip is uploaded
+Compared to the original version, there is nearly no difference in the codes, 
+except that the codes are relatively well organized and more friendly to readers.
+
+In version2, the main code is main_magmaocean2D.m
